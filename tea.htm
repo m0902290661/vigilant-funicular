@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大方茶葉 | 茶葉部落格</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <h1><img src="大方.png" alt="大方logo"><a href="index.htm">大方茶葉 批發 專賣</a></h1>
+        <nav>
+            <ul>
+                <li><a href="index.htm">首頁</a></li>
+                <li><a href="t.htm">公告</a></li>
+                <li><a href="am.htm">關於我們</a></li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <h2>茶葉部落格</h2>
+        <p>來電諮詢:0937-780661</p>
+        <button onclick="openModal()" class="b1">茶葉多樣，如何選擇？一個選擇茶葉的指南</button>
+        <div id="myModal">
+            <h2>茶葉多樣，如何選擇？一個選擇茶葉的指南</h2>
+            <p>茶葉的種類繁多，每一種都有其獨特的風味和特點，讓人眼花繚亂。要如何在眾多的茶葉中找到適合自己的那一款呢？這裡提供一個選擇茶葉的指南，幫助您更好地理解和挑選茶葉。</p>
+            <h3>1. 理解茶種</h3>
+            <p>首先，了解不同茶種的特點是選擇茶葉的基礎。綠茶清新淡雅，黑茶香氣濃郁，烏龍茶具有花香果香，白茶則以淡雅自然聞名。深入瞭解每種茶的製作工藝和口感，有助於明確自己的口味偏好。</p>
+            <h3>2. 考慮茶的產地</h3>
+            <p>不同地區的茶葉種植環境、土壤和氣候都會影響茶葉的風味。例如，中國的龍井茶和印度的阿薩姆紅茶就有著截然不同的風格。因此，考慮茶葉的產地也是一個重要的選擇因素。</p>
+            <h3>3. 尋找新鮮度</h3>
+            <p>茶葉的新鮮度直接關係到茶的品質。選購茶葉時，優先選擇包裝完好、密封良好的茶葉。如果有機會，可以選擇購買新鮮採摘的茶葉，以確保茶香和風味的最佳狀態。</p>
+            <h3>4. 試喝小量包裝</h3>
+            <p>如果您對一種茶葉感興趣，可以先選擇小量包裝進行試喝。這有助於您更全面地瞭解茶的風味，並減少購買後可能的浪費。</p>
+            <br>
+            <p>綜合考慮以上因素，選擇茶葉就像一場追求口感和品質的冒險。這也是品茶的樂趣所在，透過不斷嘗試和體驗，發現那一款讓您心動的茶葉。祝您挑選到理想的茶葉，享受每一杯的美好時光。</p>
+            <p><strong>大方茶葉</strong></p>
+            <button onclick="closeModal()">X</button>
+        </div>
+    </main>
+    <br>
+    <footer>
+        <p><strong>&copy;許元洧製作、維護、更新</strong></p>
+        <a href="index.htm">首頁</a>
+        <br>
+        <a href="t.htm">公告</a>
+        <br>
+        <a href="am.htm">關於我們</a>
+    </footer>
+
+    <script>
+    function openModal() {
+        document.getElementById('myModal').style.display = 'block';
+    }
+    function closeModal() {
+        document.getElementById('myModal').style.display = 'none';
+    }
+    </script>
+</body>
+</html>
